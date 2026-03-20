@@ -43,7 +43,7 @@ else:
 
     print(f"Frames predictions saved in: {frames_output}/results")
 
-# --------------------- PROCESS VIDEO ---------------------
+# Video Processing
 if not os.path.exists(video_path):
     print(f"Video not found: {video_path}")
 else:
@@ -70,7 +70,7 @@ else:
     else:
         print("No processed video found in the results folder.")
 
-# --------------------- SAVE OCCUPANCY PREDICTIONS ---------------------
+# Save Predictions
 occupancy_predictions = {}
 slot_id = 1
 
@@ -83,7 +83,7 @@ for batch_result in model.predict(
     if batch_result.boxes is None:
         continue
 
-    # If any car detected → occupied
+    # If any car detected (occupied)
     occupied = 1 if len(batch_result.boxes) > 0 else 0
 
     occupancy_predictions[f"slot_{slot_id}"] = {
