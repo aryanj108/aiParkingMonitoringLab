@@ -39,13 +39,9 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
-Aryan J. | aryanj108@gmail.com
-
-## Acknowledgements
-- Special thanks to the contributors and community members who helped make this project a reality.
+Aryan J. | aryanjalota483@gmail.com
 
 ## Contact
-For any inquiries, please contact me at: aryanj108@gmail.com
+For any inquiries, please contact me at: aryanjalota483@gmail.com
 
 ---
-Last updated: 2026-03-20 23:32:22 UTC
