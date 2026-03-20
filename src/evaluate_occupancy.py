@@ -27,7 +27,7 @@ prec = precision_score(y_true, y_pred)
 rec = recall_score(y_true, y_pred)
 f1 = f1_score(y_true, y_pred)
 
-print("\n📊 Model Performance")
+print("\nModel Performance")
 print("---------------------")
 print(f"Accuracy : {acc:.3f}")
 print(f"Precision: {prec:.3f}")
