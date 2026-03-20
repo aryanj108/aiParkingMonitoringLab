@@ -5,15 +5,15 @@ VIDEO_PATH = "../data/videos/large_parking_lot.mp4"
 OUTPUT_DIR = "../data/frames"
 FRAME_SKIP = 10
 
-print("📂 Video path:", os.path.abspath(VIDEO_PATH))
-print("📄 Exists:", os.path.exists(VIDEO_PATH))
+print("Video path:", os.path.abspath(VIDEO_PATH))
+print("Exists:", os.path.exists(VIDEO_PATH))
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 cap = cv2.VideoCapture(VIDEO_PATH)
 
 if not cap.isOpened():
-    print("❌ ERROR: OpenCV could not open the video.")
+    print("OpenCV could not open the video.")
     exit(1)
 
 frame_id = 0
@@ -32,4 +32,4 @@ while True:
     frame_id += 1
 
 cap.release()
-print(f"✅ Saved {saved} frames")
+print(f"Saved {saved} frames")
