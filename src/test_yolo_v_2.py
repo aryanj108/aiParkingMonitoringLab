@@ -18,7 +18,7 @@ timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 frames_output = f"runs/detect/predict_frames/run_{timestamp}"
 video_output = f"runs/detect/predict_video/run_{timestamp}"
 
-# --------------------- PROCESS FRAMES IN BATCHES ---------------------
+# Frame Processing
 if not os.path.exists(frames_path) or len(os.listdir(frames_path)) == 0:
     print(f"No images found in {frames_path}")
 else:
