@@ -32,9 +32,6 @@ To set up the project locally, follow these steps:
 2. Access the application through your web browser at `http://localhost:5000`.
 3. Follow the on-screen instructions to monitor parking spaces.
 
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
