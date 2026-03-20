@@ -43,4 +43,4 @@ os.makedirs("../data/ground_truth", exist_ok=True)
 with open(OUTPUT_JSON, "w") as f:
     json.dump(slots, f, indent=2)
 
-print(f"✅ Saved {len(slots)} parking slots to {OUTPUT_JSON}")
+print(f"Saved {len(slots)} parking slots to {OUTPUT_JSON}")
